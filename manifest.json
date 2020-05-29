@@ -1,16 +1,18 @@
 {
     "manifest_version": 2,
-    "name": "SpeedChangerAudioWhatapp",
+    "name": "Speed Changer The Audio Of Whatsapp",
     "version": "0.1",
-    "content_scripts": {
-        "matches": [
-            "https://web.whatsapp.com/"
-        ],
-        "css": [
-            "style.css"
-        ],
-        "js": [
-            "index.js"
-        ]
-    }
+    "content_scripts": [
+        {
+            "matches": [
+                "https://web.whatsapp.com/"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "index.js"
+            ]
+        }
+    ]
 }
